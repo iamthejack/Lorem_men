@@ -1,0 +1,78 @@
+@media (min-width:992px) and (max-width:1199.98px){
+    header {
+        min-height: 90vh;
+    }
+    .content h1 span {
+        color: #43d1f6;
+        font-size: 39px;
+    }
+    .content p {
+        line-height: 1.8;
+        font-size: 13px;
+    }
+    .about-content p {
+        font-size: 12px;
+    }
+    .skill-wrapper {
+        margin-left: 40px;
+    }
+    .next-wrap {
+        margin-left: 25px;
+    }
+    .resume-wrapper {
+        padding-left: 30px;
+    }
+    .featured-wrapper {
+        margin-left: 30px;
+    }
+    .contact-us-wrapper {
+        margin-left: 35px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991.98px){
+    header {
+        min-height: 90vh;
+    }
+    .navbar-light .navbar-toggler-icon {
+        background-color: #ffffff;
+    }
+    .menu .menu-item::before {
+        height: 0px;
+    }
+    .menu .menu-item::after {
+        width: 10%;
+    }
+    .content h1 {
+        font-size: 22px;
+    }
+    .content h1 span {
+        font-size: 25px;
+    }
+    .content p {
+        font-size: 12px;
+    }
+    .about-content h2 {
+        margin-right: 145px;
+        font-size: 24px;
+    }
+    .about-content h2 span {
+        font-size: 40px;
+    }
+    .about-content p {
+        width: 334px;
+        font-size: 10px;
+    }
+    .btn-contact {
+        padding: 13px 10px;
+        margin-left: 195px;
+    }
+}
+
+@media (min-width:576px) and (max-width:767.98px){
+    header {
+        min-height: 90vh;
+    }
+}
+
+@media (max-width:575.98px){}
